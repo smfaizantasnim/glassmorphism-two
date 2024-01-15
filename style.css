@@ -1,0 +1,28 @@
+body{
+    background: url('./christopher-gower-m_HRfLhgABo-unsplash.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    width: 600px;
+    height: 700px;
+    margin: 200px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: green;
+}
+/* Glass Effect*/
+.glass{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255, 255, 0.18);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(135deg, rgba(255,255, 255, 0.1),rgba(255,255, 255, 0));
+}
+
